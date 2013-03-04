@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenCL Device Test</string>
+    <string name="welcome">An OpenCL device has been detected. Here are its processing characteristics:</string>
+    <string name="error">The OpenCL library could not be found. No OpenCL device can be tested.</string>
+</resources>

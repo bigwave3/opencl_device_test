@@ -1,0 +1,10 @@
+OpenCL Device Tester
+by Matthew Scarpino
+
+This project contains Android code for an app that checks for OpenCL-compliant devices. If it finds one, it calls clGetDeviceInfo to access the device's processing characteristics.
+
+More precisely, the app requires that the libGLES_mali.so library be present in the Android's /system/vendor/lib/egl directory. If this library isn't there, the application won't run.
+
+The code depends on the Android Native Development Kit (NDK) to compile. This build process requires that an OpenCL library be placed in the project's 'external' folder.
+
+For any questions or comments, please e-mail me at mattscar@gmail.com.
